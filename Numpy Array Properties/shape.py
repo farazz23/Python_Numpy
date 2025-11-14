@@ -11,3 +11,7 @@ print(f"Size of the array is : {arr_2D.size}")
 
 #! Dimension of the array :
 print(f"Dimension of the array is: {arr_2D.ndim}")
+
+
+arr_3D = np.array([[[1, 3, 5], [8, 9, 3]], [[6, 4, 8], [1, 7, 2]]])
+print(f"Dimension of the array is : {arr_3D.ndim}")
